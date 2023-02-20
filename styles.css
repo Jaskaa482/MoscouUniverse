@@ -1,0 +1,369 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.cdnfonts.com/css/earth-orbiter');
+@import url('https://fonts.cdnfonts.com/css/tracer');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/andromeda');
+@import url('https://fonts.cdnfonts.com/css/pergola-2');
+@import url('https://fonts.cdnfonts.com/css/earth-orbiter');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    color: white;
+    font-family: sans-serif;
+}
+
+.tracker{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: 9999;
+    pointer-events: none;
+    transition: all .15s;
+}
+
+.tracker svg{
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    /* background-color: red; */
+    background-color: #1d1d4f;
+    padding: 60px;
+    height: 178.7vh;
+    position: relative;
+}
+
+.content1 {
+    /* background-color: red; */
+    padding: 60px;
+    height: 80vh;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.layer-3 {
+    top: 190px;
+    position: absolute;
+}
+
+.title {
+    font-weight: 700;
+    color: transparent;
+    font-size: 120px;
+    background: url("http://wallpaperset.com/w/full/d/6/5/380246.jpg") repeat;
+    background-position: 60% 50%;
+    -webkit-background-clip: text;
+    position: relative;
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: -8px;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #172F55;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+h1 {
+    /* background-color: blue; */
+    top: -50px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-transform: uppercase;
+    /* font-family: 'Earth Orbiter', sans-serif; */
+    font-family: 'Tracer', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.fristext {
+    /* background-color: blue; */
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    top: -150px;
+    left: 20%;
+    list-style-type: none;
+    position: relative;
+    width: 60%;
+    color: #ebece7;
+}
+
+
+
+.saturn {
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/03/12/14/saturn-4314403__340.png);
+    height: 100px;
+    width: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: -100px;
+    left: 120px;
+    position: relative;
+}
+
+#preloader {
+    background: #232323 url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/ad72a7145688797.62a27368d2b3e.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: 50%;
+    position: fixed;
+    z-index: 100;
+    opacity: 1;
+}
+
+.content2 {
+    display: flex table-row;
+    /* background-color:white; */
+    padding: 60px;
+    height: 80vh;
+    position: relative;
+}
+
+.apartats {
+    position: relative;
+    top: -60px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 100%;
+}
+
+.games {
+    height: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 30% 70% 50% 50% / 34% 30% 70% 66% ; */
+    /* animation: morph 8s ease-in-out infinite; */
+    display: flex;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.056),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.081),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.1),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.119),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.144),
+        100px 100px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* .games:hover {
+    box-shadow:
+        0.4px 0.4px 2.2px rgba(0, 0, 0, 0.124),
+        1px 1px 5.3px rgba(0, 0, 0, 0.178),
+        1.9px 1.9px 10px rgba(0, 0, 0, 0.22),
+        3.4px 3.4px 17.9px rgba(0, 0, 0, 0.262),
+        6.3px 6.3px 33.4px rgba(0, 0, 0, 0.316),
+        15px 15px 80px rgba(0, 0, 0, 0.44);
+    top: 5px;
+    left: -5px;
+} */
+
+/* .games:hover {
+    box-shadow: 0 0 0px white, 0 0 0px white, 0 0 0px white, 0 0 50px white;
+} */
+
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+h3 {
+    text-shadow: 63px 43px 51px rgba(0, 0, 0, 0.55);
+    position: relative;
+    top: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+
+#sqlcontent {
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    /* display: none; */
+    left: 10%;
+    top: -20px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    width: 80%;
+    /* background-color: red; */
+}
+
+#sqlcontent li {
+    /* background-color: red; */
+    top: 10px;
+    font-family: 'Comfortaa', cursive;
+    left: 0%;
+    text-align: left;
+    font-weight: lighter;
+    width: 110%;
+    position: relative;
+    font-size: 15px;
+}
+
+.games p {
+    /* background-color: red; */
+    width: 80%;
+    text-align: left;
+    position: relative;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.games ul {
+    width: 80%;
+    position: relative;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.games li {
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+    font-family: 'Tracer', sans-serif;
+    /* background-color: blue; */
+    top: -50px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    top: -90px;
+    margin: 20px 0;
+}
+
+
+h4 {
+    font-family: 'Tracer', sans-serif;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    top: -90px;
+    margin: 20px 0;
+}
+
+.contact {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701823885.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.overimage {
+    opacity: 95%;
+    height: 40vh;
+    width: 100%;
+    background-color: #1d1d4f;
+}
+
+.title2 {
+    background-image: url(text.jpg);
+    width: 500px;
+    position: relative;
+    left: 350px;
+    height: 40vh;
+    background-size: cover;
+}
+
+.discord {
+    width: 450px;
+    height: 250px;
+    /* background: url(https://c4.wallpaperflare.com/wallpaper/666/816/957/discord-abstract-chinese-dragon-hd-wallpaper-preview.jpg);
+    background-size: cover; */
+    position: relative;
+    top: -275px;
+    left: 700px;
+}
+
+.discord img:hover{
+    box-shadow: 0 0 0px lightblue, 0 0 0px lightblue, 0 0 0px lightblue, 0 0 50px lightblue;
+}
+
+.discord img {
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1d1d4f;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #1d1d4f;
+    /* creates padding around scroll thumb */
+}
+
